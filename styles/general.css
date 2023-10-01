@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #faf0c6;
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat, Arial;
+}
+
+p {
+  margin: 3px 0px 3px 0px;
+  font-size: 18px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-style {
+  text-decoration: none;
+  color: black;
+}
+
+.no-style:visited {
+  text-decoration: none;
+  color: black;
+}

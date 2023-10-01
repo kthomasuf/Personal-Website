@@ -1,0 +1,115 @@
+.main-section {
+  margin: 0px;
+  padding: 0px 15px 0px 15px;
+  display: flex;
+  height: 100vh;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1026px) {
+  .main-section {
+    margin-left: 10px;
+    margin-bottom: 250px;
+  }
+  .big-name-header {
+    margin-top: 75px;
+  }
+}
+
+.big-name-header {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name-header {
+  font-size: 65px;
+}
+
+.earth-icon {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  margin-left: 25px;
+}
+
+.mini-bio {
+  margin: 0px;
+  padding: 2px 0px 2px 0px;
+  font-size: 18px
+}
+
+.resume-download-button {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(255, 175, 100);
+  transition: box-shadow 0.15s;
+  transition: background-color 0.15s;
+}
+
+.resume-download-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 140, 100);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  text-decoration: underline;
+}
+
+.resume-button-text {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 16px;
+  padding: 0px 8px 0px 8px;
+}
+
+.resume-button-download-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.greeting-header, .contact-details {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.greeting-header {
+  font-size: 28px;
+}
+
+.contact-details {
+  margin-top: 25px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-name, .contact-email, .contact-phone {
+  margin: 0px;
+  padding: 2px 0px 2px 0px;
+  font-size: 18px;
+}
+
+.resume-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}

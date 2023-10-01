@@ -1,0 +1,89 @@
+.resume-section {
+  margin: 0px;
+  padding: 0px 15px 0px 15px;
+  display: flex;
+  height: 100vh;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1026px) {
+  .resume-section {
+    margin-left: 10px;
+    margin-bottom: 600px;
+  }
+}
+
+.uni-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.uf-icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+@media (max-width: 750px) {
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1000px) {
+  .skills-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .skills-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.skills-grid p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.last-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.university {
+  font-size: 22px;
+}
+
+.mini-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
